@@ -89,29 +89,27 @@ input[type=email] {
     resize: vertical;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
-  }
-
-.message {
-    max-width: 600px;
-    max-height: 600px;
-    margin-left: 10px;
-
-}
 .ponyselection {
     max-width: 180px;
     max-height: 75px;
     padding: 12px 12px 15px 0;
     margin-left: 10px;
 }
+.message {
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 10px;
+
+}
+
+
+/*Check box information */
 
 .checkbox-container {
     display: block;
     position: relative;
     padding-left: 35px;
     margin-top: 10px;
-    margin-bottom: 12px;
     cursor: pointer;
     font-size: 22px;
     user-select: none;
@@ -179,6 +177,8 @@ input[type=submit]:hover {
     font-size: 18px;
     line-height: 35px;
 }
+
+/* Submit button */
 
 .button {
     margin-top: 10px;
