@@ -196,7 +196,3 @@ input[type=submit]:hover {
     font-size: 18px;
     line-height: 21px;
 }
-
-button {
-    appearance: auto;
-}
