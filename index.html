@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> Rent a Pony</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h2 class="main-info">Want to rent a pony? <br> Please fill in this form</h2>
+            <form action="rent_pony.php">
+                <div class="row">
+                    <label for="fname">First name</label>
+                    <input type="text" name="fname" id="first name" placeholder="Your name">
+                </div>
+                <div class="row">
+                    <label for="lname">Last name</label>
+                    <input type="text" name="lname" id="last name" placeholder="Your name">
+                </div>
+                <div class="row">
+                    <label for="email">Your Email</label>
+                    <input type="Email" placeholder="Your Email">
+                </div>
+                <div class="ponyselection">
+                    <label for="ponys">Choose which pony</label>
+                    <select name="ponys" id="pony">
+                        <option value="chilli">Chilli</option>
+                        <option value="noppe">Noppe</option>
+                        <option value="talva">Talva</option>
+                        <option value="ville">Ville</option>
+                        <option value="hampus">Hampus</option>
+                        <option value="bea">Bea</option>
+                        <option value="alva">Alva</option>
+                    </select>
+                </div>
+                <div class="message">
+                    <label for="message">Information on why you want to rent a pony</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Give us information on why you should rent a pony"></textarea>
+                </div>
+                <div class="checkbox-container">
+                    <label class="checkbox-label">
+                        <input type="checkbox" checked>
+                        <span class="checkmark">
+                        </span>
+                    <div class="check-text">I'd like to get newsletter about the ponies
+                    </div>
+                </label>
+                </div>
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
